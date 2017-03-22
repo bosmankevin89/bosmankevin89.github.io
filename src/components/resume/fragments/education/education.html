@@ -1,0 +1,14 @@
+<div class="card">
+    <div class="card-header">
+        <span class="fa fa-graduation-cap card-icon" aria-hidden="true"></span>  Education
+    </div>
+    <div class="card-block">
+        <div class="card-text">
+            <div ng-repeat="edu in $ctrl.data">
+                <p><b>{{edu.institution}}</b> - <em>{{edu.degreeType}}</em></p>
+                <p>{{edu.major}}</p>
+            </div>
+        </div>
+    </div>
+</div>
+
