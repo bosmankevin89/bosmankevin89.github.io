@@ -1,0 +1,16 @@
+<div class="card">
+    <div class="card-header">
+        <span class="fa fa-info-circle card-icon" aria-hidden="true"></span> About Me
+    </div>
+    <div>
+        <div class="card-block">
+            <h4 class="card-title"><b>{{$ctrl.data.name}}</b></h4>
+            <h5 class="card-subtitle mb-2 text-muted">{{$ctrl.data.label}}</h5>
+            <div class="card-text">
+                <span class="fa fa-home card-icon" aria-hidden="true"></span> {{$ctrl.data.location.city}}, {{$ctrl.data.location.state}}<br>
+                <span class="fa fa-phone-square card-icon" aria-hidden="true"></span>  {{$ctrl.data.phone}}<br>
+                <span class="fa fa-envelope card-icon" aria-hidden="true"></span>  <a href="mailto:#">{{$ctrl.data.email}}</a>
+            </div>
+        </div>
+    </div>  
+</div>
